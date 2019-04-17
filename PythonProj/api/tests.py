@@ -51,7 +51,7 @@ class TestApi(TestCase):
             content_type='application/json'
         )
         self.assertEqual(response.json(), {
-            "result": 3
+            "result": 2
         })
 
 
