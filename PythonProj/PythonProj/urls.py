@@ -19,5 +19,6 @@ from api.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/add', add)
+    path('api/add', add),
+    path('api/minus', minus),
 ]

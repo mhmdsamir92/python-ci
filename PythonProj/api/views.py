@@ -8,3 +8,9 @@ def add(request):
         "result": res
     })
 
+def minus(request):
+    res = math.minus(int(request.GET["num1"]), int(request.GET["num2"]))
+    return JsonResponse({
+        "result": res
+    })
+
