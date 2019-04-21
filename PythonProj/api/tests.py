@@ -10,7 +10,7 @@ class TestMath(TestCase):
     
     def test_minus(self):
         res = math.minus(2, 1)
-        self.assertEqual(res, 2)
+        self.assertEqual(res, 1)
 
 class TestApi(TestCase):
 
